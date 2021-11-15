@@ -8,7 +8,7 @@ sample_ids_geo: ["GSM1186459", "GSM1186460", "GSM1186461"]
 max_reads: 25000
 
 # Genome id to align to. Should match with an entry in "genomes" below.
-genome_id: NCTC8325
+genome_id: ST398
 
 # Dictionary with genomes that can be aligned against. Here we have added
 # NCTC8325, which is the strain used in the study, and ST398, which is primarily
