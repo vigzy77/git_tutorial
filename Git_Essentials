@@ -66,8 +66,10 @@ download remote changes without merging them
 - git push origin --delete trimming :
 Delete branch from remote
 
-git push --tags :
+- git push --tags :
 Push tags to remote
 
+#Use relevant verison to reproduce analysis
+git clone {repo} followed by git checkout {tag}
 
 
