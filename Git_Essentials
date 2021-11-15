@@ -28,8 +28,10 @@ Branch into a new parallel repository
 - git checkout / git switch :
 Cd into this new repository
 
-- log and summary :
-git log
+- git log :
+log and summary
 git log --graph --all --oneline (concise verison)
 
+- git merge :
+merge one repository with another 
 
