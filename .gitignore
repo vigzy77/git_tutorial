@@ -10,3 +10,6 @@ data/*
 
 # Exclude the metadata file by prefixing it with an exclamation mark
 !data/metadata.txt
+
+#Exclude private access token key
+git_token
