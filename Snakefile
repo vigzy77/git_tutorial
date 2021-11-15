@@ -15,7 +15,7 @@ rule all:
 
 rule get_SRA_by_accession:
     """
-    Retrieve a single-read FASTQ file from SRA (Sequence Read Archive) by run accession number.
+   Retrieve a single-read FASTQ file from SRA (Sequence Read Archive) by run accession number.
 
     max_reads: Maximal number of reads to download for each sample.
     """
@@ -141,8 +141,8 @@ rule align_to_genome:
         # This gives the base name for the genome index, i.e. "intermediate/some_id"
         # rather than "intermediate/some_id.*.bt2"
         indexBase = input.index[0].replace('.1.bt2','')
-        shell("bowtie2 --very-sensitive-local -x " + indexBase + " -U {input.fastq} \
-    > {output} 2> {log}")
+        shell("bowtie2 --very-sensitive-local --trim5 5 -x " + indexBase + " \
+    -U {input.fastq} > {output} 2> {log}")
 
 rule sort_bam:
     """

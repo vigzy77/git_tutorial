@@ -45,12 +45,31 @@ give names to specific points in the history of our project
 - git remote add origin: { https://github.com/user/git_tutorial.git }
 Add a remote address to your local repo
 
--git remote -v :
+- git remote -v :
 what remote location is connected to your local Git clone
 
 - git push origin main :
 Sync remote and local repository
 
+- git pull :
+Downloads commits to local repository and merges them
 
+- git clone : { https://user@github.com/user/git_tutorial.git .}
+Clone a repository from remote to local 
+
+- git branch --set-upstream-to origin/main :
+Always push commits to origin/main on remote
+
+- git fetch :
+download remote changes without merging them
+
+- git push origin --delete trimming :
+Delete branch from remote
+
+- git push --tags :
+Push tags to remote
+
+#Use relevant verison to reproduce analysis
+git clone {repo} followed by git checkout {tag}
 
 
