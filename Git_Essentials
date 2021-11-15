@@ -24,6 +24,7 @@ For files to be escaped from this rule, add a ! before the file/path
 
 - git branch :
 Branch into a new parallel repository
+-d - delete a branch 
 
 - git checkout / git switch :
 Cd into this new repository
@@ -34,4 +35,5 @@ git log --graph --all --oneline (concise verison)
 
 - git merge :
 merge one repository with another 
+
 
