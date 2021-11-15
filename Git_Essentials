@@ -1,0 +1,35 @@
+# GitHub Essental Commands
+
+- git init :
+initialize and track the current working direcotry
+
+- git status : 
+check the status of the git directory (changes to be made/commits etc)
+
+- git add :
+add a commit to be changed
+
+- git commit :
+commit changes to files in the repo
+
+- git diff :
+show differences for files/branches before/after commits 
+
+- git rm {file} :
+remove file
+
+- .gitignore :
+Files to be ignored for commiting 
+For files to be escaped from this rule, add a ! before the file/path
+
+- git branch :
+Branch into a new parallel repository
+
+- git checkout :
+Cd into this new repository
+
+- log and summary :
+git log
+git log --graph --all --oneline (concise verison)
+
+
