@@ -12,6 +12,8 @@ add a commit to be changed
 - git commit :
 commit changes to files in the repo
 
+git commit -a to add and commit at once
+
 - git diff :
 show differences for files/branches before/after commits 
 
@@ -35,5 +37,9 @@ git log --graph --all --oneline (concise verison)
 
 - git merge :
 merge one repository with another 
+
+- git tag :
+give names to specific points in the history of our project
+
 
 
