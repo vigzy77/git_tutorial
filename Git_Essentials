@@ -51,11 +51,17 @@ what remote location is connected to your local Git clone
 - git push origin main :
 Sync remote and local repository
 
-- git clone https://user@github.com/user/git_tutorial.git .
+- git pull :
+Downloads commits to local repository and merges them
+
+- git clone : { https://user@github.com/user/git_tutorial.git .}
 Clone a repository from remote to local 
 
-- git branch --set-upstream-to origin/main
+- git branch --set-upstream-to origin/main :
 Always push commits to origin/main on remote
+
+- git fetch :
+download remote changes without merging them
 
 
 
