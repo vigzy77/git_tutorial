@@ -15,7 +15,7 @@ commit changes to files in the repo
 git commit -a to add and commit at once
 
 - git diff :
-show differences for files/branches before/after commits 
+show differences for files/branches/tags before/after commits 
 
 - git rm {file} :
 remove file
@@ -34,12 +34,22 @@ Cd into this new repository
 - git log :
 log and summary
 git log --graph --all --oneline (concise verison)
+git log --oneline --decorate (condensed commit history with tags)
 
 - git merge :
 merge one repository with another 
 
-- git tag :
+- git tag : {"tagname"}
 give names to specific points in the history of our project
+
+- git remote add origin: { https://github.com/user/git_tutorial.git }
+Add a remote address to your local repo
+
+-git remote -v :
+what remote location is connected to your local Git clone
+
+- git push origin main :
+Sync remote and local repos
 
 
 
