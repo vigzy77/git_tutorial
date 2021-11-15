@@ -25,7 +25,7 @@ For files to be escaped from this rule, add a ! before the file/path
 - git branch :
 Branch into a new parallel repository
 
-- git checkout :
+- git checkout / git switch :
 Cd into this new repository
 
 - log and summary :
