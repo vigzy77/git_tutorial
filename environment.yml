@@ -8,7 +8,11 @@ dependencies:
   - fastqc=0.11.9
   - sra-tools=2.10.1
   - snakemake-minimal=6.10.0
+<<<<<<< HEAD
   - multiqc=1.8
+=======
+  - multiqc=1.7
+>>>>>>> f1b1017a10e972890bec1856a5532fc6caece7f2
   - bowtie2=2.4.2
   - tbb=2020.3
   - samtools=1.10
