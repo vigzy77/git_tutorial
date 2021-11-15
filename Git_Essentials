@@ -60,8 +60,13 @@ Clone a repository from remote to local
 - git branch --set-upstream-to origin/main :
 Always push commits to origin/main on remote
 
+<<<<<<< HEAD
 - git fetch :
 download remote changes without merging them
 
+=======
+- git push origin --delete trimming :
+Delete branch from remote
+>>>>>>> trimming
 
 
